@@ -79,7 +79,9 @@ START: Theme Default CSS
   --tj-color-text-body3: #f2f5f9;
   --tj-color-text-body9: #818181;
   --tj-color-theme-primary: #5f39ff;
-  --tj-color-theme-secondary: #20d9a1;
+  /* --tj-color-theme-primary: #ef4724; */
+  --tj-color-theme-secondary: #D845D9C2;
+  /* --tj-color-theme-secondary: #20d9a1; */
   --tj-color-theme-h5-primary: #fd31bc;
   --tj-color-theme-h5-primary-2: #fff6fe;
   --tj-color-theme-h7-primary-3: #fff6fe;
@@ -131,7 +133,8 @@ START: Theme Default CSS
   --tj-color-light-7: #e4e1ff;
   --tj-color-light-8: #d6d1ff;
   --tj-color-light-9: #3f8acf;
-  --tj-color-light-10: #8677ff;
+  /* --tj-color-light-10: #8677ff; */
+  --tj-color-light-10: #ef4724;
   --tj-color-light-11: #3100ff;
   --tj-color-light-12: #fd31bc;
   --tj-color-light-13: #f5f4ff;
@@ -2804,7 +2807,7 @@ START: Theme Hero CSS
   overflow: hidden;
   padding-top: 310px;
   padding-bottom: 195px;
-  background: linear-gradient(78deg, rgba(95, 57, 255, 0.95) 0%, rgba(95, 57, 255, 0.76) 41.52%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(78deg, rgba(95, 57, 255, 0.95) 0%, rgb(216 69 217 / 76%) 41.52%, rgba(255, 255, 255, 0) 100%);
   mix-blend-mode: multiply;
   background-repeat: no-repeat;
   background-position: center;
@@ -2819,7 +2822,9 @@ START: Theme Hero CSS
   width: 100%;
   height: 100%;
   opacity: 0.35;
-  background: url(../images/banner-bg/hero-overly2.svg);
+  /* background: url(../images/banner-bg/hero-overly2.svg); */
+  background: linear-gradient(78deg, rgba(95, 57, 255, 0.95) 0%, rgb(216 69 217 / 76%) 41.52%, rgba(255, 255, 255, 0) 100%);
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2866,7 +2871,7 @@ START: Theme Hero CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--tj-color-light-2);
+  /* background: var(--tj-color-light-2); */
   mix-blend-mode: color;
 }
 .tj-hero-section-three .hero-content-area {
@@ -15069,7 +15074,9 @@ START: Theme Footer CSS
 }
 
 .tj-footer-three {
-  background-color: var(--tj-color-light-10);
+  /* background-color: var(--tj-color-light-10); */
+  background: linear-gradient(78deg, rgba(95, 57, 255, 0.95) 0%, rgb(216 69 217 / 76%) 41.52%, rgba(255, 255, 255, 0) 100%);
+
   position: relative;
   overflow: hidden;
 }
@@ -16729,7 +16736,7 @@ START: Theme Roll CSS
           transform: translate(-50%, -50%);
   height: 50px;
   width: 7px;
-  background: var(--tj-color-common-black);
+  /* background: var(--tj-color-common-black); */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tj-roll-section .slide-roll .roll-box .roll-item .roll-content .roll-text::before {

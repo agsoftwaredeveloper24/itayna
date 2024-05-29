@@ -787,7 +787,8 @@ START: Theme Hero CSS
    overflow: hidden;
    padding-top: 310px;
    padding-bottom: 195px;
-   background: linear-gradient(78deg, rgba(95, 57, 255, 0.95) 0%, rgba(95, 57, 255, 0.76) 41.52%, rgba(255, 255, 255, 0) 100%);
+   // background: linear-gradient(78deg, rgba(95, 57, 255, 0.95) 0%, rgba(95, 57, 255, 0.76) 41.52%, rgba(255, 255, 255, 0) 100%);
+   background: (78deg, rgb(239, 71, 36) 0%, rgb(229, 47, 11) 41.52%, rgba(255, 255, 255, 0) 100%);
    mix-blend-mode: multiply;
    background-repeat: no-repeat;
    background-position: center;
