@@ -26043,5 +26043,8 @@ START: Theme FAQ CSS
 .tj-faq-area.style-10 .tj-faq-style .accordion-item .accordion-header .accordion-button.collapsed:before {
   background: var(--tj-color-common-black);
 }
-
+.t-image-size{
+  height: 66px;
+  width: 66px;
+}
 /* !END: Theme FAQ CSS *//*# sourceMappingURL=main.css.map */
