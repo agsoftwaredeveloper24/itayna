@@ -3279,6 +3279,7 @@ START: Theme Hero CSS
     padding-bottom: 30px;
   }
 }
+
 .hero-content-area .title {
   color: var(--tj-color-grey-5);
   margin-bottom: 30px;
@@ -5740,6 +5741,8 @@ START: Theme Service CSS
   -webkit-transition: 0.4s;
   transition: 0.4s;
   padding-bottom: 0;
+  /* talha */
+  min-height: 350px;
 }
 .tj-service-item .service-icon {
   position: relative;
