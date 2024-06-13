@@ -17890,6 +17890,49 @@ START: Theme Breadcrumb CSS
   background-color: linear-gradient(181deg, var(--tj-color-grey-7) 2.29%, rgba(40, 40, 40, 0.7) 89.63%);
   position: relative;
 }
+/* edit by talha */
+.breadcrumb-wrapper-about {
+  padding-top: 210px;
+  padding-bottom: 140px;
+  background-image: url(../images/banner-bg/about-us-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: linear-gradient(181deg, var(--tj-color-grey-7) 2.29%, rgba(40, 40, 40, 0.7) 89.63%);
+  position: relative;
+}
+.breadcrumb-wrapper-service {
+  padding-top: 210px;
+  padding-bottom: 140px;
+  background-image: url(../images/banner-bg/service-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: linear-gradient(181deg, var(--tj-color-grey-7) 2.29%, rgba(40, 40, 40, 0.7) 89.63%);
+  position: relative;
+}
+.breadcrumb-wrapper-faq {
+  padding-top: 210px;
+  padding-bottom: 140px;
+  background-image: url(../images/banner-bg/faq-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: linear-gradient(181deg, var(--tj-color-grey-7) 2.29%, rgba(40, 40, 40, 0.7) 89.63%);
+  position: relative;
+}
+.breadcrumb-wrapper-contact {
+  padding-top: 210px;
+  padding-bottom: 140px;
+  background-image: url(../images/banner-bg/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: linear-gradient(181deg, var(--tj-color-grey-7) 2.29%, rgba(40, 40, 40, 0.7) 89.63%);
+  position: relative;
+}
+
+/* xxxxxxxxxxx */
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .breadcrumb-wrapper {
     padding-top: 160px;
